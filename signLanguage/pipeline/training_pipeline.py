@@ -4,14 +4,18 @@ from signLanguage.exception import SignException
 from signLanguage.components.data_ingestion import DataIngestion
 from signLanguage.components.data_validation import DataValidation
 from signLanguage.components.model_trainer import ModelTrainer
+from signLanguage.components.model_pusher import ModelPusher
+from signLanguage.configuration.s3_operations import S3Operation
 
 from signLanguage.entity.config_entity import (DataIngestionConfig, 
                                                DataValidationConfig,
-                                               ModelTrainerConfig)
+                                               ModelTrainerConfig,
+                                               ModelPusherConfig)
 
 from signLanguage.entity.artifact_entity import (DataIngestionArtifact,
                                                  DataValidationArtifact,
-                                                 ModelTrainerArtifact)
+                                                 ModelTrainerArtifact,
+                                                 ModelPusherArtifacts)
 
 
 class TrainPipeline:
@@ -19,6 +23,8 @@ class TrainPipeline:
         self.data_ingestion_config = DataIngestionConfig()
         self.data_validation_config = DataValidationConfig()
         self.model_trainer_config = ModelTrainerConfig()
+        self.model_pusher_config = ModelPusherConfig()
+        self.s3_operations = S3Operation()
 
 
     
