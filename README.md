@@ -1,6 +1,6 @@
 
+---
 
-```markdown
 # End-to-End Sign Language Detection Using YOLOv5
 
 ## Introduction
@@ -108,4 +108,6 @@ Special thanks to the developers and contributors of the YOLOv5, TensorFlow, and
 ## Contact
 For any queries or issues, please contact Gourang Patidar at [your-email@example.com].
 ```
+
+---
 
