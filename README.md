@@ -112,7 +112,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Special thanks to the developers and contributors of the YOLOv5, TensorFlow, and Keras libraries. Their work provided the foundation for this project.
 
 ## Contact
-For any queries or issues, please contact Gourang Patidar at [your-email@example.com].
+For any queries or issues, please contact Gourang Patidar at gourangpatidar2003@gmail.com
 
 ---
 
